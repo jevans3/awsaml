@@ -28,26 +28,26 @@
     "show-appcast-checkpoint": "curl --compressed --location --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36' 'https://github.com/rapid7/awsaml/releases.atom' | /usr/bin/sed 's|<pubDate>[^<]*</pubDate>||g' | shasum --algorithm 256"
   },
   "dependencies": {
-    "aws-sdk": "2.2.11",
+    "aws-sdk": "2.814.0",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
-    "body-parser": "1.18.2",
+    "body-parser": "1.20.3",
     "cookie-parser": "1.4.0",
-    "electron": "1.7.9",
+    "electron": "22.3.25",
     "electron-packager": "10.1.0",
     "errorhandler": "1.5.0",
-    "express": "4.16.2",
+    "express": "4.20.0",
     "express-react-views": "^0.10.0",
     "express-session": "1.13.0",
-    "ini": "1.3.4",
+    "ini": "5.0.0",
     "mkdirp": "0.5.1",
     "morgan": "1.6.1",
-    "passport": "0.3.0",
+    "passport": "0.6.0",
     "passport-saml": "0.31.0",
     "react": "^15.1.0",
     "react-dom": "^15.5.4",
-    "xmldom": "0.1.19",
+    "xmldom": "0.6.0",
     "xpath.js": "1.0.6"
   },
   "devDependencies": {
@@ -74,6 +74,6 @@
     "style-loader": "^0.13.1",
     "typings": "^1.0.4",
     "webpack": "^1.13.1",
-    "webpack-dev-server": "^1.14.1"
+    "webpack-dev-server": "^5.2.1"
   }
 }
